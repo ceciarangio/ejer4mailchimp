@@ -1,6 +1,32 @@
-.organiz2box{
+.imgchimp{
+position: absolute;
+width: 120px;
+height: 130px;
+}
+
+.headerr{
+    margin-left: 400px;
+}
+
+.forms{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.input2{
+    padding-right: 250px;
+    margin-top: 16px;
+}
+
+.emailpass{
+    padding-bottom: 30px;
+}
+
+li{
+    color: green;
+}
+li > span{
+    color:black;
+    line-height: 4ex;
+    text-align:left;
 }

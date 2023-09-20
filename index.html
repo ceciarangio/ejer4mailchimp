@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-    <div>
-        <img src="./assets/mc-freddie-dark.svg" />
+    <div class="imgchimp">
+        <img src="./assets/Mono.png" />
     </div>
-    <header>
+    <header class="headerr">
         <div>
             <h1>Welcome to Mailchimp</h1>
             <p>
@@ -21,35 +21,36 @@
                 with Mailchimp's Markenting Platform. Already have an account?
                 <a href="">Log in</a>
             </p>
+        </div>
     </header>
-    <main>
+    <main class="headerr">
         <form action="index.html" method="get">
-            <div class="">
-                <label>Email</label>
-                <input type="email" name="email" required minlength="10" />
+            <div class="emailpass">
+                <label>Email</label><br>
+                <input type="email" name="email" class="input2" required minlength="10" />
             </div>
-            <div class="">
-                <label>Username</label>
-                <input type="text" name="username" required minlength="4" maxlength="10" />
+            <div class="emailpass">
+                <label>Username</label><br>
+                <input type="text" name="username" class="input2" required minlength="4" maxlength="10" />
             </div>
-            <div class="">
-                <label>Password</label>
-                <input type="password" name="password" required minlength="8"
+            <div class="emailpass">
+                <label>Password</label><br>
+                <input type="password" name="password" class="input2" required minlength="8"
                     pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" />
             </div>
         </form>
-        <section>
+        <section class="forms">
             <div>
                 <ul>
-                    <li>One lower case</li>
-                    <li>One uppercase character</li>
-                    <li>One number</li>
+                    <li><span>One lower case</span></li>
+                    <li><span>One uppercase character</span></li>
+                    <li><span>One number</span></li>
                 </ul>
             </div>
-            <div>
+            <div >
                 <ul>
-                    <li>One special character</li>
-                    <li>8 characters minimum</li>
+                    <li><span>One special character</span></li>
+                    <li><span>8 characters minimum</span></li>
                 </ul>
             </div>
         </section>
@@ -60,7 +61,7 @@
             offers.
         </div>
     </main>
-    <footer>
+    <footer class="headerr">
         >By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a
             href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</p>
     </footer>
